@@ -8,7 +8,7 @@ import emoji from "react-easy-emoji";
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
@@ -28,109 +28,6 @@ const greeting = {
   
   displayGreeting: true // Set false to hide this section, defaults to true
 };
-
-// Social Media Links
-
-const socialMediaLinks = {
-  github: "https://github.com/BeomD",
-  display: true // Set true to display this section, defaults to false
-};
-
-// Skills Section
-
-const skillsSection = {
-  title: "Developer Skills",
-  subTitle: "숙련된 C, Java, Kotlin 프로그래밍 능력을 보유하고 있으며 기초적인 HTML,CSS 능력을 보유하고있습니다",
-  skills: [
-   // "<어학>",
-   // "TOEIC : 805",
-    "<Certification>",
-    "정보처리기사 / 육상무선통신사",
-    "<Developer>",
-    "임베디드를 전공하였기 때문에 C언어에 능통합니다.",
-    "언어 학습 및 습득 속도가 빠릅니다",
-  ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
-  softwareSkills: [
-    {
-      skillName: "C",
-      fontAwesomeClassname: "fas fa-code"
-    },
-
-    {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-
-    {
-        skillName: "Kotlin",
-        fontAwesomeClassname: "fab fa-android"
-      },
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-
-const skillsSection2 = {
-    title: "Lecturer Skills",
-    subTitle: "초,중,고 넓은 스펙트럼의 수학 지도 경력을 다년간 보유하고 있습니다",
-    skills: [ 
-      "조교부터 파트, 전임까지 차근차근 업무능력을 쌓아왔습니다",
-      "교육과정 변화에 발맞춰 지속적으로 학습, 지도해왔습니다",
-    ],    
-      softwareSkills: [
-      {
-        skillName: "초등",
-        fontAwesomeClassname: "fas fa-calculator-alt"
-      },
-      {
-        skillName: "중등",
-        fontAwesomeClassname: "fas fa-square-root"
-      },
-      {
-        skillName: "고등",
-        fontAwesomeClassname: "fas fa-function"
-      },
-      {
-        skillName: "미적분",
-        fontAwesomeClassname: "fas fa-integral"
-      },
-      {
-        skillName: "확률통계",
-        fontAwesomeClassname: "fas fa-chart-scatter-bubble"
-      },
-      {
-        skillName: "기하",
-        fontAwesomeClassname: "fas fa-arrow-up-square-triangle"
-      },
-      {
-        skillName: "문항출제경험",
-        fontAwesomeClassname: "fas fa-file-lines"
-      },
-    ],
-    display: false
-}
-
-
-
-
-
 
 // Education Section
 const educationInfo = {
@@ -152,10 +49,8 @@ const educationInfo = {
 
 // Work experience section
 
-
-
 const workExperiences = {
-    display: false, //Set it to true to show workExperiences Section
+    display: true, //Set it to true to show workExperiences Section
     experience: [
       {
         role: "서버관리자(HP-UX Server Administer)",
@@ -194,8 +89,149 @@ const workExperiences = {
     ]
   };
 
-  const workExperiences2 = {
-    display: true, //Set it to true to show workExperiences Section
+
+// Some big projects you have worked on
+
+const bigProjects = {
+  title: "프로젝트",
+  subtitle: "Projects",
+  projects: [
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "멀티프로세서 기반 스마트 IoT 피트니스 매트(Smart IoT Fitness Mattress based on Multi-Processor)",
+      projectDesc: [
+          "학부졸업 프로젝트 / I2C통신 기반 Atmega-128 CPU 멀티프로세서 구성 / 센서정보 실시간 송수신(BT&Serial) / ",
+          "Java 기반 Guide SoftWare 탑재",     
+        ], 
+    },
+    {
+        image: require("./assets/images/denpic.png"),
+        projectName: "DENPIC",
+        projectDesc: [
+            "Kotlin기반 안드로이드 앱 개발 진행중",
+          ], 
+      },
+  ],
+ 
+  display: true // Set false to hide this section, defaults to true
+  
+};
+
+const contactInfo = {
+    title: emoji("연락처"),
+    subtitle:[
+      "언제든지 일할 준비가 되어있습니다. ",
+    ],
+    number: "010-3901-5700",
+    email_address: "bamjin_e@protonmail.com"
+  };
+  
+
+
+
+//-----------------------------------------------------------------------------------------------------------------------------
+
+// Social Media Links
+
+const socialMediaLinks = {
+    github: "https://github.com/BeomD",
+    display: false // Set true to display this section, defaults to false
+  };
+  
+  // Skills Section
+  
+  const skillsSection = {
+    title: "Developer Skills",
+    subTitle: "숙련된 C, Java, Kotlin 프로그래밍 능력을 보유하고 있으며 기초적인 HTML,CSS 능력을 보유하고있습니다",
+    skills: [
+     // "<어학>",
+     // "TOEIC : 805",
+      "<Certification>",
+      "정보처리기사 / 육상무선통신사",
+      "<Developer>",
+      "임베디드를 전공하였기 때문에 C언어에 능통합니다.",
+      "언어 학습 및 습득 속도가 빠릅니다",
+    ],
+  
+    /* Make Sure to include correct Font Awesome Classname to view your icon
+  https://fontawesome.com/icons?d=gallery */
+  
+    softwareSkills: [
+      {
+        skillName: "C",
+        fontAwesomeClassname: "fas fa-code"
+      },
+  
+      {
+        skillName: "Java",
+        fontAwesomeClassname: "fab fa-java"
+      },
+      {
+        skillName: "html-5",
+        fontAwesomeClassname: "fab fa-html5"
+      },
+      {
+        skillName: "css3",
+        fontAwesomeClassname: "fab fa-css3-alt"
+      },
+  
+      {
+        skillName: "JavaScript",
+        fontAwesomeClassname: "fab fa-js"
+      },
+  
+      {
+          skillName: "Kotlin",
+          fontAwesomeClassname: "fab fa-android"
+        },
+    ],
+    display: true // Set false to hide this section, defaults to true
+  };
+  
+  
+  const skillsSection2 = {
+      title: "Lecturer Skills",
+      subTitle: "초,중,고 넓은 스펙트럼의 수학 지도 경력을 다년간 보유하고 있습니다",
+      skills: [ 
+        "조교부터 파트, 전임까지 차근차근 업무능력을 쌓아왔습니다",
+        "교육과정 변화에 발맞춰 지속적으로 학습, 지도해왔습니다",
+      ],    
+        softwareSkills: [
+        {
+          skillName: "초등",
+          fontAwesomeClassname: "fas fa-calculator-alt"
+        },
+        {
+          skillName: "중등",
+          fontAwesomeClassname: "fas fa-square-root"
+        },
+        {
+          skillName: "고등",
+          fontAwesomeClassname: "fas fa-function"
+        },
+        {
+          skillName: "미적분",
+          fontAwesomeClassname: "fas fa-integral"
+        },
+        {
+          skillName: "확률통계",
+          fontAwesomeClassname: "fas fa-chart-scatter-bubble"
+        },
+        {
+          skillName: "기하",
+          fontAwesomeClassname: "fas fa-arrow-up-square-triangle"
+        },
+        {
+          skillName: "문항출제경험",
+          fontAwesomeClassname: "fas fa-file-lines"
+        },
+      ],
+      display: false
+  }
+  
+  
+const workExperiences2 = {
+    display: false, //Set it to true to show workExperiences Section
     experience: [
       {
         role: ["중고등 수학조교","(MathEducation Assistant)"],
@@ -267,65 +303,6 @@ const workExperiences = {
     ]
   };
 
-
-
-// Some big projects you have worked on
-
-const bigProjects = {
-  title: "프로젝트",
-  subtitle: "Projects",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "멀티프로세서 기반 스마트 IoT 피트니스 매트(Smart IoT Fitness Mattress based on Multi-Processor)",
-      projectDesc: [
-          "학부졸업 프로젝트 / I2C통신 기반 Atmega-128 CPU 멀티프로세서 구성 / 센서정보 실시간 송수신(BT&Serial) / ",
-          "Java 기반 Guide SoftWare 탑재",     
-        ], 
-    },
-    {
-        image: require("./assets/images/denpic.png"),
-        projectName: "DENPIC",
-        projectDesc: [
-            "Kotlin기반 안드로이드 앱 개발 진행중",
-          ], 
-      },
-  ],
- 
-  display: true // Set false to hide this section, defaults to true
-  
-};
-
-  
-const contactInfo = {
-    title: emoji("연락처"),
-    subtitle:[
-      "언제든지 일할 준비가 되어있습니다. ",
-    ],
-    number: "010-3901-5700",
-    email_address: "bamjin_e@protonmail.com"
-  };
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-//-----------------------------------------------------------------------------------------------------------------------------
 
 const techStack = {
     viewSkillBars: false, //Set it to true to show Proficiency Section
