@@ -15,7 +15,7 @@ const greeting = {
   username: "범진",
   title:[
       "Hi!  ",
-      "FreeLancer ",
+      "SW Developer",
       "BEOMJIN"],
   subTitle: 
   [
