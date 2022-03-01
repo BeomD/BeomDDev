@@ -12,7 +12,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "BEOMJIN",
+  username: "범진",
   title:[
       "Hi!  ",
       "FreeLancer ",
@@ -20,7 +20,7 @@ const greeting = {
   subTitle: 
   [
       "끊임없이 발전하는 ",
-      "개발자&수학강사 김범진입니다",
+      "개발자 김범진입니다",
   ],
   resumeLink:"",
   //resumeLink: "https://www.dropbox.com/s/gwxtmd1cyy9l2g1/%EA%B9%80%EB%B2%94%EC%A7%84_%EA%B8%B0%EB%B3%B8%20%EC%8B%A0%EC%9E%85%20%EC%9D%B4%EB%A0%A5%EC%84%9C%20.pdf?dl=0", 
@@ -124,7 +124,7 @@ const skillsSection2 = {
         fontAwesomeClassname: "fas fa-file-lines"
       },
     ],
-    display: true
+    display: false
 }
 
 
@@ -155,7 +155,7 @@ const educationInfo = {
 
 
 const workExperiences = {
-    display: true, //Set it to true to show workExperiences Section
+    display: false, //Set it to true to show workExperiences Section
     experience: [
       {
         role: "서버관리자(HP-UX Server Administer)",
