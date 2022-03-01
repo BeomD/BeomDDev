@@ -12,10 +12,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "범진",
+  username: "범진/개발자",
   title:[
       "Hi!  ",
-      "SW Developer",
+      "SW Developer ",
       "BEOMJIN"],
   subTitle: 
   [
