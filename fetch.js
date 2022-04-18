@@ -104,7 +104,7 @@ if (MEDIUM_USERNAME !== undefined) {
     method: "GET"
 
   };
-    */
+    
   const req = https.request(options, res => {
     let mediumData = "";
 
@@ -129,4 +129,5 @@ if (MEDIUM_USERNAME !== undefined) {
   });
 
   req.end();
+  */
 }
