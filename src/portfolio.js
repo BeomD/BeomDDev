@@ -83,7 +83,7 @@ const workExperiences = {
         date: "2022 ~ 재직중",
         desc: "서울 서대문구 연세로2나길61",
         descBullets: [
-          "Kotlin기반 Android 개발자",
+          "Kotlin기반 Android 개발자 / Jetpack Compose",
       ]
       },
     ]
