@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd80e7d2e59dd45ef7fc5f77f7e5de2b",
+    "revision": "ee170467d5b85d9cdbbe00bc7dd1f8cc",
     "url": "/BeomDDev/index.html"
   },
   {
-    "revision": "2ec0a81941761267011a",
+    "revision": "ea0ae9f33139a6fd0da8",
     "url": "/BeomDDev/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "476d38f8fc1d1546692a",
+    "revision": "d70006072e343da17567",
     "url": "/BeomDDev/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "e937d4d7fd41d699c179",
+    "revision": "dec28206b225e4f927f5",
     "url": "/BeomDDev/static/css/main.9aeb1b23.chunk.css"
   },
   {
-    "revision": "b8eb4e6ae428418a7e92",
-    "url": "/BeomDDev/static/js/2.43d298c0.chunk.js"
+    "revision": "9b6690961a89fc8911f2",
+    "url": "/BeomDDev/static/js/2.14103c4c.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/BeomDDev/static/js/2.43d298c0.chunk.js.LICENSE.txt"
+    "url": "/BeomDDev/static/js/2.14103c4c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2ec0a81941761267011a",
-    "url": "/BeomDDev/static/js/3.b77f0e1a.chunk.js"
+    "revision": "ea0ae9f33139a6fd0da8",
+    "url": "/BeomDDev/static/js/3.47981099.chunk.js"
   },
   {
-    "revision": "476d38f8fc1d1546692a",
-    "url": "/BeomDDev/static/js/4.a288f67d.chunk.js"
+    "revision": "d70006072e343da17567",
+    "url": "/BeomDDev/static/js/4.975e8b62.chunk.js"
   },
   {
-    "revision": "e937d4d7fd41d699c179",
-    "url": "/BeomDDev/static/js/main.4318923f.chunk.js"
+    "revision": "dec28206b225e4f927f5",
+    "url": "/BeomDDev/static/js/main.580950e2.chunk.js"
   },
   {
-    "revision": "afe80d40553931de97e9",
-    "url": "/BeomDDev/static/js/runtime-main.113cdbfa.js"
+    "revision": "ff8425dc4e2793224723",
+    "url": "/BeomDDev/static/js/runtime-main.68b2675d.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -86,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "60131220fa91f60c1f6c83182eea9e32",
     "url": "/BeomDDev/static/media/harvardLogo.60131220.png"
+  },
+  {
+    "revision": "0c7110324eca06ecb8f2d6b2036b80da",
+    "url": "/BeomDDev/static/media/howeat.0c711032.png"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",

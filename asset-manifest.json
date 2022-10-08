@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/BeomDDev/static/css/main.9aeb1b23.chunk.css",
-    "main.js": "/BeomDDev/static/js/main.4318923f.chunk.js",
-    "main.js.map": "/BeomDDev/static/js/main.4318923f.chunk.js.map",
-    "runtime-main.js": "/BeomDDev/static/js/runtime-main.113cdbfa.js",
-    "runtime-main.js.map": "/BeomDDev/static/js/runtime-main.113cdbfa.js.map",
-    "static/js/2.43d298c0.chunk.js": "/BeomDDev/static/js/2.43d298c0.chunk.js",
-    "static/js/2.43d298c0.chunk.js.map": "/BeomDDev/static/js/2.43d298c0.chunk.js.map",
+    "main.js": "/BeomDDev/static/js/main.580950e2.chunk.js",
+    "main.js.map": "/BeomDDev/static/js/main.580950e2.chunk.js.map",
+    "runtime-main.js": "/BeomDDev/static/js/runtime-main.68b2675d.js",
+    "runtime-main.js.map": "/BeomDDev/static/js/runtime-main.68b2675d.js.map",
+    "static/js/2.14103c4c.chunk.js": "/BeomDDev/static/js/2.14103c4c.chunk.js",
+    "static/js/2.14103c4c.chunk.js.map": "/BeomDDev/static/js/2.14103c4c.chunk.js.map",
     "static/css/3.df879eac.chunk.css": "/BeomDDev/static/css/3.df879eac.chunk.css",
-    "static/js/3.b77f0e1a.chunk.js": "/BeomDDev/static/js/3.b77f0e1a.chunk.js",
-    "static/js/3.b77f0e1a.chunk.js.map": "/BeomDDev/static/js/3.b77f0e1a.chunk.js.map",
+    "static/js/3.47981099.chunk.js": "/BeomDDev/static/js/3.47981099.chunk.js",
+    "static/js/3.47981099.chunk.js.map": "/BeomDDev/static/js/3.47981099.chunk.js.map",
     "static/css/4.e91a4b36.chunk.css": "/BeomDDev/static/css/4.e91a4b36.chunk.css",
-    "static/js/4.a288f67d.chunk.js": "/BeomDDev/static/js/4.a288f67d.chunk.js",
-    "static/js/4.a288f67d.chunk.js.map": "/BeomDDev/static/js/4.a288f67d.chunk.js.map",
+    "static/js/4.975e8b62.chunk.js": "/BeomDDev/static/js/4.975e8b62.chunk.js",
+    "static/js/4.975e8b62.chunk.js.map": "/BeomDDev/static/js/4.975e8b62.chunk.js.map",
     "index.html": "/BeomDDev/index.html",
-    "precache-manifest.90ec5a96f01d57c1d013f982495e3208.js": "/BeomDDev/precache-manifest.90ec5a96f01d57c1d013f982495e3208.js",
+    "precache-manifest.691345f97b45860d425e629634d3d8f2.js": "/BeomDDev/precache-manifest.691345f97b45860d425e629634d3d8f2.js",
     "service-worker.js": "/BeomDDev/service-worker.js",
     "static/css/3.df879eac.chunk.css.map": "/BeomDDev/static/css/3.df879eac.chunk.css.map",
     "static/css/4.e91a4b36.chunk.css.map": "/BeomDDev/static/css/4.e91a4b36.chunk.css.map",
     "static/css/main.9aeb1b23.chunk.css.map": "/BeomDDev/static/css/main.9aeb1b23.chunk.css.map",
-    "static/js/2.43d298c0.chunk.js.LICENSE.txt": "/BeomDDev/static/js/2.43d298c0.chunk.js.LICENSE.txt",
+    "static/js/2.14103c4c.chunk.js.LICENSE.txt": "/BeomDDev/static/js/2.14103c4c.chunk.js.LICENSE.txt",
     "static/media/index.css": "/BeomDDev/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/BlueM.png": "/BeomDDev/static/media/BlueM.f7a12d93.png",
     "static/media/Haizen.png": "/BeomDDev/static/media/Haizen.10d1b593.png",
@@ -31,6 +31,7 @@
     "static/media/developerActivity2.svg": "/BeomDDev/static/media/developerActivity2.59389695.svg",
     "static/media/facebookLogo.png": "/BeomDDev/static/media/facebookLogo.0bd6a074.png",
     "static/media/harvardLogo.png": "/BeomDDev/static/media/harvardLogo.60131220.png",
+    "static/media/howeat.png": "/BeomDDev/static/media/howeat.0c711032.png",
     "static/media/manOnTable.svg": "/BeomDDev/static/media/manOnTable.52be3144.svg",
     "static/media/saayaHealthLogo.webp": "/BeomDDev/static/media/saayaHealthLogo.8201cd3c.webp",
     "static/media/skill.svg": "/BeomDDev/static/media/skill.34409398.svg",
@@ -38,9 +39,9 @@
     "static/media/winoi.png": "/BeomDDev/static/media/winoi.6ec2aea3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.113cdbfa.js",
-    "static/js/2.43d298c0.chunk.js",
+    "static/js/runtime-main.68b2675d.js",
+    "static/js/2.14103c4c.chunk.js",
     "static/css/main.9aeb1b23.chunk.css",
-    "static/js/main.4318923f.chunk.js"
+    "static/js/main.580950e2.chunk.js"
   ]
 }
