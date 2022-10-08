@@ -77,7 +77,7 @@ const workExperiences = {
         ]
       },   
       {
-        role: ["SW개발자","(Software Developer)"],
+        role: ["Android 개발자","(Software Developer)"],
         company: "위노아이(WINOI)",
         companylogo: require("./assets/images/winoi.png"),
         date: "2022 ~ 재직중",
@@ -108,7 +108,16 @@ const bigProjects = {
         image: require("./assets/images/denpic.png"),
         projectName: "DENPIC",
         projectDesc: [
-            "Kotlin기반 안드로이드 앱 개발 진행중",
+            "치과 의료 SW",
+            "Jetpack Compose기반 안드로이드 앱",
+          ], 
+      },
+      {
+        image: require("./assets/images/howeat.png"),
+        projectName: "HowEat",
+        projectDesc: [
+            "노인,환자를 위한 영양사 매칭 서비스",
+            "Jetpack Compose기반 안드로이드 앱",
           ], 
       },
   ],
@@ -149,8 +158,9 @@ const socialMediaLinks = {
       "<Certification>",
       "정보처리기사 / 육상무선통신사",
       "<Developer>",
-      "임베디드를 전공하였기 때문에 C언어에 능통합니다.",
-      "언어 학습 및 습득 속도가 빠릅니다",
+      "임베디드를 전공하며, 숙련된 C언어 능력과 언어 이해도를 갖추고 있습니다",
+      "Jetpack Compose기반 최신 Android 개발 능력을 보유하고 있습니다",
+      "기본적으로 다뤄본 언어들이 다양하여 업무에 빠르게 적응할 수 있습니다"
     ],
   
     /* Make Sure to include correct Font Awesome Classname to view your icon
