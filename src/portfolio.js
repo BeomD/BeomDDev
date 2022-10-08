@@ -108,7 +108,7 @@ const bigProjects = {
         image: require("./assets/images/denpic.png"),
         projectName: "DENPIC",
         projectDesc: [
-            "치과 의료 SW",
+            "치과 의료 SW\n",
             "Jetpack Compose기반 안드로이드 앱",
           ], 
       },
@@ -116,7 +116,7 @@ const bigProjects = {
         image: require("./assets/images/howeat.png"),
         projectName: "HowEat",
         projectDesc: [
-            "노인,환자를 위한 영양사 매칭 서비스",
+            "노인, 환자를 위한 영양사 매칭 서비스\n",
             "Jetpack Compose기반 안드로이드 앱",
           ], 
       },
