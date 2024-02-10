@@ -86,6 +86,16 @@ const workExperiences = {
           "Kotlin기반 Android 개발자 / Jetpack Compose",
       ]
       },
+            {
+        role: ["코어금융부 글로벌금융팀","(Intern)"],
+        company: "한국산업은행(KDB))",
+        companylogo: require("./assets/images/kdb.png"),
+        date: "2023 ~ 재직중",
+        desc: "서울특별시 영등포구 은행로14",
+        descBullets: [
+          "글로벌 금융팀 코어금융, 정보화사업 등 업무보조",
+      ]
+      }
     ]
   };
 
